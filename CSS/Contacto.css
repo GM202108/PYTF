@@ -1,0 +1,193 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+nav{
+display: block;
+text-align: right;
+padding: 20px;
+background: white;
+width: 90%;
+}
+    
+a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 10px;
+}
+    
+a:hover{
+text-decoration: underline;
+padding: 10px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+
+.IN{
+display: flex;
+background: #ffffff;
+}
+    
+.Logo{
+padding: 10px;
+}
+
+.Cajon{
+background: black;
+height: 1928px;
+}
+
+.Cajon{
+background: #333333; 
+background: -webkit-linear-gradient(to right, #dd1818, #333333);
+background: linear-gradient(to right, #dd1818, #333333);
+height: 850px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+text-align: center;
+font-weight: 700;
+}
+
+form{
+background: rgb(255, 255, 255);
+padding: 40px 0;
+box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+}
+
+.form{
+width: 100%;
+margin: auto;
+}
+
+form .grupo{
+position: relative;
+margin: 45px;
+}
+
+input{
+background: #3333330c;
+border-radius: 10px;
+color: #c6c6c6;
+font-size: 18px;
+padding: 10px 10px 10px 5px;
+display: block;
+width: 100%;
+border: none;
+border-bottom: 1px solid var(--colorTextos);
+}
+    
+
+input:focus{
+outline: none;
+color: #f5b9b9;   
+}
+
+label{
+color: var(--colorTextos);
+font-size: 16px;
+position: absolute;
+left: 5px;
+top: 10px;
+transition: 0,5s ease-in-out all;
+pointer-events: none;
+}
+
+input:focus~label,input:valid~label{
+top: -14px;
+font-size: 12px;
+color: #ff5555;
+}
+
+.barra{
+position: relative;
+display: block;
+width: 100%;
+}
+
+input:focus~.barra::before{
+width: 100%;
+}
+
+.barra::before{
+content: "";
+height: 2px;
+width: 0%;
+bottom: 0;
+position: absolute;
+background: linear-gradient(to right, #dd1818, #333333);
+transition: 0.3s ease width;
+left: 0;
+}
+
+.Texto{
+text-align: center;
+align-items: center;
+padding: 20px;
+max-width: 600px;
+min-width: 300px;
+max-height: 250px;
+min-height: 250px;
+}
+    
+button{
+font-family:'roboto';
+background: #4568DC;
+background: -webkit-linear-gradient(to right, #dd1818, #333333);
+background: linear-gradient(to right, #dd1818, #333333);
+border: none;
+display: block;
+width: 80%;
+margin: 10px auto;
+color: #ffffff;
+padding: 30px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 10px;
+}
+
+@media screen and (max-width:576px){
+    form{
+        width:80%;
+    }
+
+    nav{
+        font-size: 1px;
+        padding: 10px;
+        }
+        
+        a:hover{
+        text-decoration: underline;
+        padding: 1px;
+        background: rgba(0, 0, 0, 0.158);
+        border-radius: 6px;
+        }
+            
+        a{
+        font-size: 15px;
+        padding: 5px;
+        margin: 0;
+    
+        }
+
+    .Texto{
+        min-width: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+}
+
+:root{
+--colorTexto: #49454567;
+}
+*,::before,::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}

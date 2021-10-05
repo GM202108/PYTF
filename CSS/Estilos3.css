@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: block;
+    text-align: right;
+    padding: 20px;
+    background: white;
+    width: 90%;
+    }
+    
+    a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    }
+    
+    a:hover{
+    text-decoration: underline;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.158);
+    border-radius: 6px;
+    }
+
+    .IN{
+        display: flex;
+        background: #ffffff;
+    }
+    
+    .Logo{
+        padding: 10px;
+    }
+
+.Todo{
+background: black;
+width: auto;
+height: 800px;
+text-align: center;
+align-items: center;
+text-align: justify;
+padding: 30px;
+}
+
+.Ladoizquierdo h1{ 
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    }
+
+.Ladoizquierdo{
+color: rgb(255, 255, 255);
+}
+
+.Ladoderecho{
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    }
+
+    .Ladoderecho img{
+        padding: 20px;
+        text-align: center;
+    align-items: center;
+    }
+
+    p{
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .BB{
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+@media screen and (max-width:576px){
+nav{
+font-size: 5px;
+padding: 10px;
+}
+                    
+a:hover{
+text-decoration: underline;
+padding: 5px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+                        
+a{
+font-size: 15px;
+padding: 5px;
+margin: 0;
+}
+
+.BB{
+background: black;
+width: auto;
+height: 1000px;
+}
+
+.Ladoderecho{
+background: black;
+width: auto;
+height: 1000px;
+flex-direction: column;
+}
+        
+body{
+background: black;
+}
+}       
+        
+@media screen and (max-width:768px){
+nav{
+font-size: 5px;
+padding: 10px;
+}
+                            
+a:hover{
+text-decoration: underline;
+padding: 5px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+                                
+a{
+font-size: 15px;
+padding: 5px;
+margin: 0;
+}
+        
+.BB{
+background: black;
+width: auto;
+height: 1000px;
+}
+        
+.Ladoderecho{
+background: black;
+width: auto;
+height: 1000px;
+flex-direction: column;
+}
+                
+body{
+background: black;
+}
+}
+
+
+
+@media screen and (max-width:992px){
+nav{
+font-size: 5px;
+padding: 10px;
+}
+                                
+a:hover{
+text-decoration: underline;
+padding: 5px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+                                    
+a{
+font-size: 15px;
+padding: 5px;
+margin: 0;
+}
+            
+.BB{
+background: black;
+width: auto;
+height: 1000px;
+}
+            
+.Ladoderecho{
+background: black;
+width: auto;
+height: 1000px;
+flex-direction: column;
+}
+                    
+body{
+background: black;
+}
+}
+
+@media screen and (max-width:1200px){
+nav{
+font-size: 5px;
+padding: 10px;
+}
+                                    
+a:hover{
+text-decoration: underline;
+padding: 5px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+                                        
+a{
+font-size: 15px;
+padding: 5px;
+margin: 0;
+}
+                
+.BB{
+background: black;
+width: auto;
+height: 1000px;
+}
+                
+.Ladoderecho{
+background: black;
+width: auto;
+height: 1000px;
+flex-direction: column;
+}
+                        
+body{
+background: black;
+}
+}
+
+@media screen and (max-width:1400px){                      
+    body{
+    background: black;
+    }
+    }

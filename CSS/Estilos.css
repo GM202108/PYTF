@@ -1,0 +1,420 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+p{
+text-align: justify;
+padding: 10px;
+}
+
+.IN{
+    display: flex;
+    background: #ffffff;
+}
+.Logo{
+    padding-right: 1300px;
+    padding-bottom: 100px;
+    padding: 10px;
+}
+
+.Boton{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.Boton a{
+    background: rgba(0, 0, 0, 0.075);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Boton a:hover{
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(180, 180, 180);
+    color: #660000;
+}
+header{
+background: rgb(0, 0, 0);
+height: 300px;
+width: auto;
+}
+
+.body{
+    background: #660000;
+}
+/*Inicio*/
+nav{
+display: block;
+text-align: right;
+padding: 15px;
+background: white;
+width: 90%;
+}
+
+a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 10px;
+
+}
+
+a:hover{
+text-decoration: underline;
+padding: 10px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+/*OLA NEGRA*/
+.OL{
+background: rgb(0, 0, 0);
+}
+/*CAJON*/
+.Cajon1{
+height: 500px;
+width: auto;
+background:rgb(0, 0, 0);
+}
+
+.T1{
+padding: 20px;
+}
+
+.Titulo1{
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 10px;
+font-family: serif;
+background: black;
+}
+    
+.Cuerpocajon{
+display:flex;
+width: auto;
+height: auto;
+text-align: center;
+}
+    
+.Ladoizquierdo{
+width: 50%;
+background: black;
+}
+
+.Imagen1{
+padding-left: 160px;
+}
+    
+.Ladoderecho{
+width: 50%;
+background: black;
+color: white;
+padding: 20px;
+}
+
+/*Cajon 2*/
+
+.OL2{
+background: rgb(141, 0, 0);
+}
+
+.T2{
+padding: 20px;
+}
+
+.Cajon2{
+height: 500px;
+width: auto;
+background:rgb(253, 253, 253);
+}
+    
+.Titulo2{
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 10px;
+font-family: serif;
+background: rgb(141, 0, 0);
+}
+        
+.Cuerpocajon2{
+    display:flex;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+}
+        
+.Ladoizquierdo2{
+width: 50%;
+background: rgb(141, 0, 0);
+color: rgb(255, 255, 255);
+}
+    
+.Imagen2{
+padding-left: 160px;
+width: auto;
+}
+        
+.Ladoderecho2{
+width: 50%;
+background: rgb(141, 0, 0);
+color: rgb(255, 255, 255); 
+
+}
+
+
+
+
+/*Cajon 3*/
+
+.OL3{
+background: rgb(255, 255, 255);
+color: rgb(141, 0, 0);
+}
+    
+.T3{
+padding: 20px;
+}
+    
+.Cajon3{
+height: 500px;
+width: 100%;
+background:rgb(255, 255, 255);
+}
+        
+.Titulo3{
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 10px;
+font-family: serif;
+background: rgb(255, 255, 255);
+}
+            
+.Cuerpocajon3{
+    display:flex;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+            
+.Ladoizquierdo3{
+width: 50%;
+background: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+text-align: center;
+align-items: center;
+}
+        
+.Imagen3{
+padding-left: 160px;
+}
+            
+.Ladoderecho3{
+width: 50%;
+background: rgb(255, 255, 255);
+color: rgb(0, 0, 0); 
+padding: 20px;  
+}
+
+
+
+
+/*Cajon 4*/
+
+.OL4{
+    background: rgb(0, 0, 0);
+    
+}
+
+.Cajon4{
+    height: 500px;
+    background:rgb(0, 0, 0);
+    }
+.Titulo4{
+    text-align: center;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width:400px){
+    nav{
+        font-size: 1px;
+        padding: 10px;
+        }
+        
+        a:hover{
+        text-decoration: underline;
+        padding: 5px;
+        background: rgba(0, 0, 0, 0.158);
+        border-radius: 6px;
+        }
+            
+        a{
+        font-size: 1px;
+        padding: 5px;
+        margin: 0;
+        }
+    }
+@media screen and (max-width:576px){
+nav{
+font-size: 5px;
+padding: 10px;
+}
+
+a:hover{
+text-decoration: underline;
+padding: 5px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+    
+a{
+font-size: 5px;
+padding: 5px;
+margin: 0;
+}
+
+.header{
+    flex-direction: column;
+}
+
+.Cuerpocajon{
+    flex-direction: column;
+   text-align: center;
+   align-items: center;
+   background: black;
+}
+
+.Imagen111{
+    width: 250px;
+    height: auto;
+}
+
+.Cuerpocajon2{
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   background:  rgb(141, 0, 0);
+
+}
+
+.Imagen222{
+    width: 250px;
+    height: 250px;
+}
+
+.Cuerpocajon3{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.Imagen333{
+    width: 250px;
+    height: 250px;
+}
+
+}
+
+
+
+
+@media screen and (max-width:768px){
+    nav{
+        font-size: 5px;
+        padding: 10px;
+        }
+        
+        a:hover{
+        text-decoration: underline;
+        padding: 5px;
+        background: rgba(0, 0, 0, 0.158);
+        border-radius: 6px;
+        }
+            
+        a{
+        font-size: 15px;
+        padding: 5px;
+        margin: 0;
+        }
+        
+        .header{
+            flex-direction: column;
+        }
+        
+        .Cuerpocajon{
+            flex-direction: column;
+           text-align: center;
+           align-items: center;
+           background: black;
+        }
+        
+        .Cuerpocajon2{
+           flex-direction: column;
+           text-align: center;
+           align-items: center;
+           background:  rgb(141, 0, 0);
+        
+        }
+        
+        .Cuerpocajon3{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        
+        }
+
+
+
+@media screen and (max-width:992px){
+    nav{
+        font-size: 5px;
+        padding: 10px;
+        }
+        
+        a:hover{
+        text-decoration: underline;
+        padding: 5px;
+        background: rgba(0, 0, 0, 0.158);
+        border-radius: 6px;
+        }
+            
+        a{
+        font-size: 15px;
+        padding: 5px;
+        margin: 0;
+        }
+        
+        .header{
+            flex-direction: column;
+        }
+        
+        .Cuerpocajon{
+            flex-direction: column;
+           text-align: center;
+           align-items: center;
+           background: black;
+        }
+        
+        .Cuerpocajon2{
+           flex-direction: column;
+           text-align: center;
+           align-items: center;
+           background:  rgb(141, 0, 0);
+        
+        }
+        
+        .Cuerpocajon3{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        
+        }
+

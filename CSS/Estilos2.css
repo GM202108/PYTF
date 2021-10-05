@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+display: block;
+text-align: right;
+padding: 20px;
+background: white;
+width: 90%;
+}
+    
+a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 10px;
+}
+    
+a:hover{
+text-decoration: underline;
+padding: 10px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+
+.IN{
+display: flex;
+background: #ffffff;
+}
+    
+.Logo{
+padding: 10px;
+}
+
+.Sangre{
+background: black;
+display: flex;
+width: auto;
+}
+
+.CAJA{
+width: auto;
+height: 810px;
+background: black;
+text-align: center;
+align-items: center;
+display: flex;
+
+}
+
+body{
+    background: black;
+    }
+
+p{
+color: rgb(255, 255, 255);
+}
+
+.Ladoizquierdo{
+color: rgb(255, 255, 255);
+background: black;
+width: 50%;
+padding: 20px;
+text-align: justify;
+padding-top: 250px;
+height: 500px;
+font-size: 20px;
+}
+
+h1{
+    color: rgb(255, 96, 96);
+}
+
+.Ladoderecho{
+    width: 50%;
+    background: black;
+    height: 500px;
+    text-align: center;
+}
+
+.Imagenespasos{
+    display: flex;
+}
+
+.MJ{
+    text-align: center;
+    align-items: center;
+    background: black;
+}
+
+.SG1{
+    background: black;
+    text-align: center;
+}
+
+.SG{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 5px rgba(255, 255, 255, 0.322);
+}
+
+.SG:hover{
+    background: rgb(255, 205, 205);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:576px){
+nav{
+font-size: 5px;
+padding: 10px;
+}
+    
+a:hover{
+text-decoration: underline;
+padding: 5px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+        
+a{
+font-size: 15px;
+padding: 5px;
+margin: 0;
+}
+
+.CAJA{
+flex-direction: column;
+background: black;
+width: auto;
+height: auto;
+}
+
+.Header{
+background: black;
+}
+
+.Ladoderecho{
+background: black;
+width: auto;
+height: auto;
+}
+
+.BS{
+    display: flex;
+width: 50px;
+height: 50px;
+text-align: center;
+align-items: center;
+}
+
+.Ladoizquierdo{
+background: black;
+width: auto;
+height: auto;
+text-align: center;
+}
+}
+
+@media screen and (max-width:768px){
+nav{
+font-size: 5px;
+padding: 10px;
+}
+            
+a:hover{
+text-decoration: underline;
+padding: 5px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+                
+a{
+font-size: 15px;
+padding: 5px;
+margin: 0;
+}
+        
+.CAJA{
+flex-direction: column;
+background: black;
+width: auto;
+height: auto;
+}
+        
+.Header{
+background: black;
+}
+        
+.Ladoderecho{
+background: black;
+width: auto;
+height: auto;
+}
+        
+.PS{
+width: 150px;
+height: 150px;
+}
+        
+.Ladoizquierdo{
+background: black;
+width: auto;
+height: auto;
+text-align: center;
+}
+}
+
+@media screen and (max-width:992px){
+nav{
+font-size: 5px;
+padding: 10px;
+}
+                
+a:hover{
+text-decoration: underline;
+padding: 5px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+                    
+a{
+font-size: 15px;
+padding: 5px;
+margin: 0;
+}
+            
+.CAJA{
+flex-direction: column;
+background: black;
+width: auto;
+height: auto;
+}
+            
+.Header{
+background: black;
+}
+            
+.Ladoderecho{
+background: black;
+width: auto;
+height: auto;
+}
+            
+.PS{
+width: 150px;
+height: 150px;
+}
+            
+.Ladoizquierdo{
+background: black;
+width: auto;
+height: auto;
+text-align: center;
+}
+}
+
+@media screen and (max-width:1200px){
+nav{
+font-size: 5px;
+padding: 10px;
+}
+                    
+a:hover{
+text-decoration: underline;
+padding: 5px;
+background: rgba(0, 0, 0, 0.158);
+border-radius: 6px;
+}
+                        
+a{
+font-size: 15px;
+padding: 5px;
+margin: 0;
+}
+                
+.CAJA{
+flex-direction: column;
+background: black;
+width: auto;
+height: auto;
+}
+                
+.Header{
+background: black;
+}
+                
+.Ladoderecho{
+background: black;
+width: auto;
+height: auto;
+}
+                
+.PS{
+width: 150px;
+height: 150px;
+}
+                
+.Ladoizquierdo{
+background: black;
+width: auto;
+height: auto;
+text-align: center;
+}
+}
